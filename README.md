@@ -23,7 +23,7 @@ git clone https://github.com/your-username/Portfolio-website-themes.git
 ```markdown
 cd Portfolio-website-themes
 ```
-* Pick a Portfolio Website or make a new one. (Make sure you rename the folder as Portfolio-<Current Number>)
+* Pick a Portfolio Website or make a new one. (Make sure you rename the folder as Portfolio-Current Number)
 * Make a new branch
 ```markdown
 git checkout -b branch-name
