@@ -1,0 +1,229 @@
+body{
+    background-color: snow;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    height: 95vh;
+    position: relative;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 5%;
+}
+nav ul
+{
+    display: flex;
+}
+nav ul li a
+{
+    margin: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: snow;
+    font-size: 25px;
+    font-weight: 700;
+}
+.logo
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+.text-container p:nth-child(1)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+.text-container p:nth-child(2)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 60px;
+}
+.text-container p:nth-child(3)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: gray;
+    font-size: 30px;
+    line-height: 30px;
+}
+.text-container p{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+.text-container
+{
+    position: absolute;
+    left: 13%;
+    top:42%;
+    transform: translate(-13%,-32%);
+}
+/*.text-container button{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+}*/
+.model
+{
+    height: 500px;
+    position: absolute;
+    bottom: 0px;
+    left: 70%;
+    width: 500px;
+    transform: translateX(-50%);
+}
+.about-container
+{
+    width: 80%;
+    height: 330px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin: -7% auto 20px auto;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.about-text{
+    padding: 45px;
+}
+.about-text p:nth-child(1)
+{
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+    text-align: center;
+}
+.about-text p:nth-child(2)
+{
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    
+}
+.about-text p:nth-child(3)
+{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(109, 109, 109);
+    text-align: center;
+    
+}
+.about-text p:nth-child(4)
+{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(109, 109, 109);
+    text-align: center;
+    
+}
+.skills
+{
+ justify-content: space-evenly;
+ text-align: left;
+ padding-bottom: 45px;
+}
+.skill-text
+{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 35px;
+    font-size: 40px;
+}
+.skill-list
+{
+ display: flex;   
+ justify-content: space-evenly;
+ padding-bottom: 60px;
+}
+.contact-me
+{
+    width: 100%;
+    height: 280px;
+    background-color: black;
+    padding-top:45px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.contact-me p{
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+    padding-top: 45px;
+}
+footer p:nth-child(1)
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+footer p:nth-child(2)
+{
+    font-size: 16px;
+    width: 600px;
+}
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(156, 156, 156);
+    display: flex;
+    margin: 20px 10px;
+    font-size: 40px;
+    color: white;
+    
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+a:link {
+    color:white;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color:white;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: silver;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color:white;
+    text-decoration: none;
+  }
